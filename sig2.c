@@ -5,7 +5,7 @@
 void signalHandler(int signo);
 int signal_count=0;
 
-main() 
+int main() 
 { 
     struct sigaction new_act;
     struct sigaction old_act;
